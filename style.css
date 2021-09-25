@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.max-width{
+   width: 1170px;
+   margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+
+/* header-section */
+.full-website{
+    font-family: serif;
+}
+
+.hero-section{
+    background-color:#3498db;
+}
+.header{}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img {
+    max-width: 100%;
+    height: auto;
+    width: 168px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 30px;
+    line-height: 60px;
+
+    transition: all .5s ease;
+}
+.header-right ul li a:hover{
+    background-color: #2980b9;
+}
+
+/* Bunner-section */
+.bunner-section {
+    background: url("https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg") scroll no-repeat ;
+    background-size: cover;
+    padding: 170px 0px;
+    background-position: 0px -70px;
+}
+.bunner-caption h2{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+}
+.bunner-caption h1 {
+    background-color: rgba(52, 158, 219, .6);
+    color: white;
+    font-size: 37px;
+    width: 470px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+
+/* About-section */
+.about{
+   margin-top: 60px;
+}
+.about h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about p{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* service-section */
+.service-section{}
+.service-item{
+    width: 31.3%;
+    float: left;
+    margin: 60px 0px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px 10px;
+}
+.service-item span{
+    background: #3498db;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    line-height: 60px;
+    font-size: 35px;
+    border-radius: 20px 0px;
+    color: white;
+}
+.service-item h2{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+.service-item p{
+
+}
+
+
+/* container */
+.c-left{
+    float: left;
+    width: 70%;
+}
+.container-left{
+
+    margin: 20px 0px;
+}
+.container-right {
+	float: right;
+	width: 25%px;
+	margin-top: 20px;
+}
+.container-left img{
+    max-width: 130px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.container-left p::first-letter{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-right h2{
+    font-size: 35px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.container-right ul{
+    list-style: none;
+}
+.container-right ul li{
+    font-size: 20px;
+    border:1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* footer-section */
+.footer{
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px 0px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.footer-right ul{
+    list-style: none;
+ 
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}

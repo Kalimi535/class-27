@@ -1,0 +1,137 @@
+.hero-section {
+	padding: 10px 0px;
+}
+.about p {
+    width: 100%;
+    font-size: 20px;
+}
+.max-width {
+	margin-top: 40px;
+}
+.about {
+    margin-top: 60px;
+    width: 600px;
+}
+.footer-left p{
+    font-size: 16px;
+}
+@media (max-width:1220px) {
+    .max-width {
+        width: 100%;
+        margin: auto;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;   
+    }  
+    .about {
+        margin-top: 60px;
+        width: 600px;
+    } 
+
+}
+@media (max-width:1120px) {
+    .bunner-section {
+        padding: 88px 0px;
+    }
+}
+@media (max-width:1020px) {
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .c-left {
+        float: left;
+        width: 68%;
+    } 
+    .container-right {
+        margin-left: 50px;
+        width: 25%;
+    }
+    .container-right h2 {
+        font-size: 30px;
+    }
+    .container-right ul li {
+        font-size: 14px;
+    }
+}
+
+    
+@media (max-width:768px) {
+    .header-right ul li {
+        border: none;
+    }
+    .header-right ul li a {
+        font-size: 20px;
+        padding: 0px 15px;
+        line-height: 35px;
+    }
+    .bunner-section {
+        padding: 40px 0px;
+    }
+    .bunner-caption h1 {
+        font-size: 29px;
+        width: 340px;
+    }
+    .bunner-caption h2 {
+        padding: 6px 15px;
+        font-size: 25px;
+    }
+    .about {
+        margin-top: 27px;
+        width: 600px;
+    }
+    .about h2 {
+        font-size: 30px;
+        margin-bottom: 11px;
+    }
+    .about p {
+        margin-bottom: 30px;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top:0;
+    }
+    .container-right {
+        width: 100%;
+    }
+    .c-left {
+        width: 100%;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-left p {
+        font-size: 14px;
+    }
+    .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right ul li a {
+        font-size: 18px;
+    }
+}
+@media (max-width:576px) {
+    .bunner-caption h2 {
+        padding: 8px 14px;
+        font-size: 20px;
+    }
+    .bunner-caption h1 {
+        font-size: 21px;
+        width: 260px;
+    }
+    .bunner-section {
+        padding: 25px 0px;
+    }
+    
+}
